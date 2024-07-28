@@ -20,6 +20,5 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 # add cups
 cd package/lean
 git clone https://github.com/obanat/openwrt-printing-packages.git
-./scripts/feeds update -a
-./scripts/feeds install -a
+
 
