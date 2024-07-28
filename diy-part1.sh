@@ -18,7 +18,11 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # add cups
-cd package/lean
-git clone https://github.com/obanat/openwrt-printing-packages.git
+# cd openwrt/package/lean
+# git clone https://github.com/obanat/openwrt-printing-packages.git
+
+# Add cups
+echo 'src-git printing https://github.com/obanat/openwrt-printing-packages.git' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 
